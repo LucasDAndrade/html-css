@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos com HTML5</title>
+</head> 
+<body>
+  <h1>Inserindo vídeos hospedados localmente</h1>
+  <p>Este vídeo está hospedado no meu próprio servidor.</p>
+  <!-- <video src="midia/cyberpunk-small.mp4" controls></video> seria uma possibilidade, mas como vamos inserir diversos tipos de arquivo, para a garantia de funcionamento, é recomendado o modelo a seguir: -->
+
+
+  <video controls loop width= "560" poster="imagens/cyberpunk-thumb.png">
+
+    <source src="midia/cyberpunk-small.mp4" type="video/mp4">
+    <source src="midia/cyberpunk-small.mkv" type="video/mp4">
+    <source src="midia/cyberpunk-small.webm" type="video/webm">
+    <source src="midia/cyberpunk-small.ogv" type="video/ogg">
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+  </video>
+  
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-yncazWdZm8?si=BqLHVYyr6kFLrpbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <p>Ligue a musiquinha e aplique o full screen para fazer a vibe 😁.</p>
+  <audio src="midia/lawrence.mp3" controls autoplay loop></audio> <!--mp3, wav ou ogg-->
+  <audio preload="metadata">
+</body>
+</html>

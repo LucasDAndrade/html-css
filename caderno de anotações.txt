@@ -1,0 +1,114 @@
+caderno de anotações HTML5 e CSS3
+
+-------------------------------------------------------------------------------
+
+-- repositório público e gratuito
+
+     https://github.com/gustavoguanabara
+
+     https://gustavoguanabara.github.io
+
+
+-- referências gratuitas e recomendações
+
+     vídeo 05, módulo 1
+
+
+-- tipos de arquivos de imagem
+
+     jpg: imagem compactada, sem suporte à transparência.
+     png: possibilidade de fundo transparente, distorce menos devido à alta qualidade.
+     tamanho máximo recomendado: 1500 de largura, altura proporcional. Adaptar corretamente conforme o site.
+     Resolução recomendada: 50 ou 72. (vídeo 17, módulo 1)
+
+
+-- Ótimo vídeo para planejar seu site antes de partir para o VS Code
+
+     vídeo 33, módulo 2
+
+
+-- Curso aprofundado de Github no canal do CursoEmVideo
+
+     O conteúdo de git e github presente no Módulo 3 de HTML5 e CSS3 aborda apenas o básico, e caso tenha interesse, assistir ao resto do conteúdo na playlist completa sobre o tema.
+     --> https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&ab_channel=CursoemV%C3%ADdeo
+
+-------------------------------------------------------------------------------
+
+-- Vídeo 09, Módulo 1
+
+       O HTML é uma linguagem focada em conteúdo, semântica, significado, não mais em forma. (textos, vídeos, imagens, tabelas, listas, etc.)
+       Já os CSS são os atrativos visuais, o design do site, a forma. (cores, posição de imagens e textos, tamanhos, posicionamentos, etc.)
+       O site deve ser composto por um bom conteúdo e um visual atraente.
+       Por fim, o Javascript são as interações encontradas nos sites. (menus, animações, popups, validações, etc.)
+
+
+-- Vídeo 16, Módulo 1
+
+       Sites para buscca de imagens gratuitas.
+
+
+-- Vídeo 19, Módulo 1
+
+       Sites para criar ícones para os projetos.
+       -> favicon.cc e favicon.io
+
+
+-- Vídeo 05, Módulo 2
+
+       Site da adobe para harmonização de cores e sugestões de paletas;
+       Extrair as cores e o modelo de fonte de uma imagem upada.
+       -> color.adobe.com
+       -> paletton.com
+       -> coolors.co
+       -> colorzilla - extensão de conta gotas do chrome
+
+
+-- Vídeo 13, Módulo 02
+
+       Propriedades shorthand são a possibilidade de executar comando de várias linhas em apenas uma. Existem várias shorthands, mas não para todos os comandos.
+
+       Shorthand font
+
+    font-family: 'work sans';
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+      font-style -> font-weight -> font-size -> font-family (nessa ordem)
+      Ex: font: italic bolder 3em 'Work Sans', sans-serif;
+
+
+-- Vídeo 14, Módulo 02
+
+       Site para adquirir diversos estilos de fontes gratuitos.
+       -> fonts.google.com (não precisa baixar, só importar através do embed)
+
+
+-- Vídeo 17, Módulo 02
+
+       Sites para identificação de fontes em imagens
+       -> whatfontis.com
+       -> fontsquirrel.com
+       -> myfonts.com
+
+
+-- Vídeo 26, Módulo 02
+
+       Vídeo rico em informações sobre o agrupamento de tags do sits; rever sempre que uma dúvida surgir. (ex021, caixa02)
+
+
+-- Vídeo 33, Módulo 02
+
+       Site que auxilia na criação e planejamento do seu site, o "mock".
+       --> wireframepro.mockflow.com
+
+	<article></article> --> basicamente, o conteúdo principal do texto. Recomendo envelopar todo o conteúdo principal com a tag logo no início da construção do projeto. e em seguida aplicar as outras tags, como os <p> e os <h1...h6>. na primeira experiência, eu fui aplicando as tags na ordem do texto no site, talvez seja até melhor.
+
+
+	<aside></aside> --> conteúdo secundário, extra, como aqueles links externos para o "aprender mais", etc.
+
+
+-- Vídeo 2, Módulo 03
+
+	Repositório local: GIT (aarmazenado no meu pc)
+	Repositório remoto: Github (armazenado na nuvem)
