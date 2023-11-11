@@ -6,17 +6,26 @@
   <title>Document</title>
   <style>
     body {
-      height: 100vh;
+      /* height: 100vh;
       background-color: black;
       background-image: url('imagens/wallpaper002.jpg');
       background-position: center center;
       background-repeat: no-repeat;
-      background-size: cover; /*auto, contain e cover (ou fixar o tamanho em px) */
+      background-size: cover; [auto, contain e cover (ou fixar o tamanho em px) ]
+      background-attachment: fixed; [fixed ou scroll (o fixed combado com o cover fica perfeito para o wallpaper do site] */
+
+      /*
+        shorthand (uma delcaração no lugar de várias) - background
+          color > image > position > repeat > [size] > attachment (o size parece não estar funcionando ainda, apesar de estar descrito no manual)
+      */
+
+      background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+      background-size: cover;
     }
 
     main {
       background-color: white;
-      width: 400px;
+      max-width: 400px;
       padding: 10px;
       margin: auto;
       border: 1px solid darkblue;
@@ -27,6 +36,17 @@
 <body>
   <main>
     <h1>Teste de imagem de fundo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate earum, accusamus consequatur facere ea impedit delectus praesentium magnam. Consequuntur quo tempora quidem dolores! Eligendi possimus esse error quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quos omnis dignissimos quae itaque earum. Nostrum cupiditate quo incidunt laboriosam, ipsum in, accusamus corporis omnis debitis optio, facilis veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo nesciunt quia ipsum dolor numquam sed reprehenderit eos necessitatibus quibusdam? Voluptatibus ab ipsa molestias a asperiores deserunt corporis, ex labore.</p>
   </main>
 </body>
