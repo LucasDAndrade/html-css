@@ -5,13 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabela</title>
   <style>
+    caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 10px;
+      background-color: lightgray;
+    }
+
     body {
       font-family: Arial, Helvetica, sans-serif;
     }
 
     table {
       width: 500px;
-      border: collapse;
+      border-collapse: collapse;
+      position: relative; /*para o titulo acompanhar o scroll */
+    }
+
+    tbody > tr:nth-child(2n) { /*pode-se usar odd e even no lugar de 2n, para maior personalização */
+      background-color: lightgray;
     }
 
     td, th {
@@ -20,8 +32,14 @@
     }
 
     thead, tfoot {
-      background-color: gray;
+      background-color: rgb(60, 59, 59);
       color: white;
+    }
+
+    thead > tr > th {
+      position: sticky; /*colar para seguir o scroll */
+      top: -1px;
+      background-color: rgb(60, 59, 59);;
     }
 
     td.num {
@@ -35,6 +53,7 @@
      Anatomia para tabelas grandes
 
       TABLE
+        CAPTION (legenda da tabela, título)
         THEAD
           TR, TD, TH
         TBODY
@@ -43,10 +62,11 @@
           TR, TD, TH
   -->
   <table>
+    <caption>População das Unidades Federativas</caption>
     <thead>
       <tr>
-        <th>Estado</th>
-        <th>População</th>
+        <th scope="col">Estado</th>
+        <th scope="col" style="width: 50px;">População</th>
       </tr>
     </thead>
     <tbody>
@@ -161,10 +181,14 @@
     </tbody>
     <tfoot>
       <tr>
-        <th>Total de habitantes</th>
+        <th scope="row">Total de habitantes</th>
         <td class="num"><strong>210.174.125</strong></td>
       </tr>
     </tfoot>
   </table>
 </body>
-</html>
+</html> <!-- [scope = col] -> dados do título abaixo dele
+             [scope = row] -> dados do título ao lado dele
+
+    Não causa impacto visual, mas é importante para que os mecanismos de busca consigam analisar os dados de forma coerente e fazer sentido para eles. 
+-->
