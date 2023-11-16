@@ -94,7 +94,7 @@ caderno de anotações HTML5 e CSS3
 
 -- Vídeo 26, Módulo 02
 
-       Vídeo rico em informações sobre o agrupamento de tags do sits; rever sempre que uma dúvida surgir. (ex021, caixa02)
+       Vídeo rico em informações sobre o agrupamento de tags do site; rever sempre que uma dúvida surgir. (ex021, caixa02)
 
 
 -- Vídeo 33, Módulo 02
@@ -110,5 +110,5 @@ caderno de anotações HTML5 e CSS3
 
 -- Vídeo 2, Módulo 03
 
-	Repositório local: GIT (aarmazenado no meu pc)
+	Repositório local: GIT (armazenado no meu pc)
 	Repositório remoto: Github (armazenado na nuvem)
