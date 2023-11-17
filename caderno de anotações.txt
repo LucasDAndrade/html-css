@@ -108,7 +108,14 @@ caderno de anotações HTML5 e CSS3
 	<aside></aside> --> conteúdo secundário, extra, como aqueles links externos para o "aprender mais", etc.
 
 
--- Vídeo 2, Módulo 03
+-- Vídeo 02, Módulo 03
 
 	Repositório local: GIT (armazenado no meu pc)
 	Repositório remoto: Github (armazenado na nuvem)
+
+
+-- Vídeo 08, Módulo 04
+
+	Segurança do seu site, principalmente tratando-se de iframes
+
+	  Utilize sempre o sandbox = "sandbox", referrer-policy = "no-referrer" 	e, principalmente, não coloque qualquer site dentro do seu.
