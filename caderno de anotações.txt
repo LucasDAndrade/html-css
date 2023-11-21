@@ -119,3 +119,8 @@ caderno de anotações HTML5 e CSS3
 	Segurança do seu site, principalmente tratando-se de iframes
 
 	  Utilize sempre o sandbox = "sandbox", referrer-policy = "no-referrer" 	e, principalmente, não coloque qualquer site dentro do seu.
+
+
+-- Vídeo 16, Módulo 04
+
+	Ensinando como editar imagens para que ela seja enorme verticalmente, para o projeto social (utilizando o gimp).
