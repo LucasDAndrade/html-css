@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meu primeiro Formulário</h1>
+  <form action="cadastro.php" method="post" autocomplete="off"> <!--linkar o cadastro com um php e desligar a sugestão de nome na caixinha --- método post: coulta os dados fornecidos da url, mas ainda estão armazenados no network, nada criptografado (para isso, estudar https) e get, o modo normal, com os dados aparecendo na url [usar o get quando os dados não forem sensíveis, para uma url compartilhável e de até 3000 bytes, aprox. 3k letras --- usar o post quando os dados forem sensíveis, quando for imagem, acima de 3k bytes ou envio de arquivos]-->
+    <p><label for="inome">Nome:</label>
+      <input type="text" name="nome" id="inome"></p> <!--name: mais útil para html e php, id: mais útil para o javascript-->
+    <p><label for="isobrenome">Sobrenome:</label>
+      <input type="text" name="Sobrenome" id="isobrenome"></p>
+    <p><input type="submit" value="Enviar"></p>
+  </form>
+</body>
+</html>

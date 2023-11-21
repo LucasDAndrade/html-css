@@ -124,3 +124,14 @@ caderno de anotações HTML5 e CSS3
 -- Vídeo 16, Módulo 04
 
 	Ensinando como editar imagens para que ela seja enorme verticalmente, para o projeto social (utilizando o gimp).
+
+
+-- Vídeo 19, Módulu 04
+
+	Introdução a formulários, Get e Post.
+
+	  método post: oculta os dados fornecidos da url, mas ainda estão armazenados no network, nada criptografado (para isso, estudar https) e get, o modo normal, com os dados aparecendo na url
+	  [usar o get quando os dados não forem sensíveis, para uma url compartilhável e de até 3000 bytes (aprox. 3k letras) --- 
+	  usar o post quando os dados forem sensíveis, quando for imagem, acima de 3k bytes ou envio de arquivos]
+
+	  as opções que eu tenho dentro de mu form são on e off, para as opções mais abrangentes, inserir o "autocomplete" dentro do input para aplicar uma das sugestões em seguida (sexo, telefone, name, username, etc.)
