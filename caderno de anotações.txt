@@ -137,3 +137,10 @@ caderno de anotações HTML5 e CSS3
 	  as opções que eu tenho dentro de mu form são on e off, para as opções mais abrangentes, inserir o "autocomplete" dentro do input para aplicar uma das sugestões em seguida (sexo, telefone, name, username, etc.)
 
 	  último input apresentado (um output, no caso). o output soma, por exemplo, não serve para enviar a soma para o endereço, apenas mostrar a soma e outros produtos na tela.
+
+
+-- Vídeo 29, Módulo 04
+
+	Introdução a Media Queries.
+	  
+	  consiste na criação de diferentes arquivos .css, a estilização normal que será utilizada no seu site e um segundo arquivo, utilizado apenas para estilizar a página quando ela for impressa (ctrl + p), pois não seráo necessários todo o conteúdo presente na tela do site (o menu e links externos, por exemplo).
