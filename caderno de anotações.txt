@@ -126,7 +126,7 @@ caderno de anotações HTML5 e CSS3
 	Ensinando como editar imagens para que ela seja enorme verticalmente, para o projeto social (utilizando o gimp).
 
 
--- Vídeo 19, Módulu 04
+-- Vídeo 19, Módulo 04
 
 	Introdução a formulários, Get e Post.
 
@@ -135,3 +135,5 @@ caderno de anotações HTML5 e CSS3
 	  usar o post quando os dados forem sensíveis, quando for imagem, acima de 3k bytes ou envio de arquivos]
 
 	  as opções que eu tenho dentro de mu form são on e off, para as opções mais abrangentes, inserir o "autocomplete" dentro do input para aplicar uma das sugestões em seguida (sexo, telefone, name, username, etc.)
+
+	  último input apresentado (um output, no caso). o output soma, por exemplo, não serve para enviar a soma para o endereço, apenas mostrar a soma e outros produtos na tela.
