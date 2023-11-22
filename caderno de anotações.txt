@@ -144,3 +144,12 @@ caderno de anotações HTML5 e CSS3
 	Introdução a Media Queries.
 	  
 	  consiste na criação de diferentes arquivos .css, a estilização normal que será utilizada no seu site e um segundo arquivo, utilizado apenas para estilizar a página quando ela for impressa (ctrl + p), pois não seráo necessários todo o conteúdo presente na tela do site (o menu e links externos, por exemplo).
+
+	Media Query = Media Type + Media Feature
+	          Tipos de mídia + Característica de mídia
+
+	Por exemplo:
+
+<link rel="stylesheet" href="estilos/retrato.css" media="screen" and ()>
+
+	screen seria o media type, escrito normalmente; a media feature seria o (orientation:portrait), escritas entre parênteses.
