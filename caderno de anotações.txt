@@ -153,3 +153,9 @@ caderno de anotações HTML5 e CSS3
 <link rel="stylesheet" href="estilos/retrato.css" media="screen" and ()>
 
 	screen seria o media type, escrito normalmente; a media feature seria o (orientation:portrait), escritas entre parênteses.
+
+
+-- Vídeo 37, Módulo 04
+
+	um ótimo exemplo do modelo base de um site, básico e quase completo. utilizar como referência no futuro para decidir como serão realizados meus futuros projetos.
+	os vídeos subsequentes também são ótimos para a continuação do preojeto.
