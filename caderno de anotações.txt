@@ -158,4 +158,4 @@ caderno de anotações HTML5 e CSS3
 -- Vídeo 37, Módulo 04
 
 	um ótimo exemplo do modelo base de um site, básico e quase completo. utilizar como referência no futuro para decidir como serão realizados meus futuros projetos.
-	os vídeos subsequentes também são ótimos para a continuação do preojeto.
+	os vídeos subsequentes também são ótimos para a continuação do preojeto, principalmente os vídeos de finalização do projeto-login, que inclui todos depois do 39.
